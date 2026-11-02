@@ -1,0 +1,138 @@
+{
+  "events": [
+    {
+      "sequence": 1,
+      "level": "INFO",
+      "message": "[PROFILE] Elevated WSH context enabled (synthetic /elevate argument)"
+    },
+    {
+      "sequence": 2,
+      "level": "INFO",
+      "message": "[RUN] Executing script (22327890 bytes)"
+    },
+    {
+      "sequence": 3,
+      "level": "INFO",
+      "message": "[ActiveXObject] Microsoft.XMLDOM"
+    },
+    {
+      "sequence": 4,
+      "level": "INFO",
+      "message": "[ActiveXObject] Scripting.FileSystemObject"
+    },
+    {
+      "sequence": 5,
+      "level": "INFO",
+      "message": "[ActiveXObject] WScript.Shell"
+    },
+    {
+      "sequence": 6,
+      "level": "INFO",
+      "message": "[FSO] GetSpecialFolder(0) => C:\\Windows"
+    },
+    {
+      "sequence": 7,
+      "level": "INFO",
+      "message": "[ActiveXObject] ADODB.Stream"
+    },
+    {
+      "sequence": 8,
+      "level": "INFO",
+      "message": "[STREAM OPEN]"
+    },
+    {
+      "sequence": 9,
+      "level": "INFO",
+      "message": "[STREAM WRITE] 44858 bytes"
+    },
+    {
+      "sequence": 10,
+      "level": "INFO",
+      "message": "[STREAM SAVE] C:\\Windows\\..\\ProgramData\\Result_2024-0617.pdf (44858 bytes)"
+    },
+    {
+      "sequence": 11,
+      "level": "INFO",
+      "message": "[STREAM CLOSE]"
+    },
+    {
+      "sequence": 12,
+      "level": "INFO",
+      "message": "[FILE EXISTS] C:\\Windows\\..\\ProgramData\\Result_2024-0617.pdf => true"
+    },
+    {
+      "sequence": 13,
+      "level": "INFO",
+      "message": "[PROCESS] WScript.Shell.Run\n  executable: C:\\Windows\\..\\ProgramData\\Result_2024-0617.pdf\n  command: \"C:\\Windows\\..\\ProgramData\\Result_2024-0617.pdf\"\n  wait: no"
+    },
+    {
+      "sequence": 14,
+      "level": "INFO",
+      "message": "[ActiveXObject] ADODB.Stream"
+    },
+    {
+      "sequence": 15,
+      "level": "INFO",
+      "message": "[STREAM OPEN]"
+    },
+    {
+      "sequence": 16,
+      "level": "INFO",
+      "message": "[STREAM WRITE] 5566464 bytes"
+    },
+    {
+      "sequence": 17,
+      "level": "INFO",
+      "message": "[STREAM SAVE] C:\\Windows\\..\\ProgramData\\jgI47eo.oUIt (5566464 bytes)"
+    },
+    {
+      "sequence": 18,
+      "level": "INFO",
+      "message": "[STREAM CLOSE]"
+    },
+    {
+      "sequence": 19,
+      "level": "INFO",
+      "message": "[FILE EXISTS] C:\\Windows\\..\\ProgramData\\jgI47eo.oUIt => true"
+    },
+    {
+      "sequence": 20,
+      "level": "INFO",
+      "message": "[PROCESS] WScript.Shell.Run\n  executable: powershell.exe\n  command: powershell.exe -windowstyle hidden certutil -decode C:\\Windows\\..\\ProgramData\\jgI47eo.oUIt C:\\Windows\\..\\ProgramData\\dB7Z32t.dFq6\n  wait: yes"
+    },
+    {
+      "sequence": 21,
+      "level": "INFO",
+      "message": "[SLEEP] 10000ms"
+    },
+    {
+      "sequence": 22,
+      "level": "INFO",
+      "message": "[FILE EXISTS] C:\\Windows\\..\\ProgramData\\dB7Z32t.dFq6 => false"
+    },
+    {
+      "sequence": 23,
+      "level": "INFO",
+      "message": "[SLEEP] 15000ms"
+    },
+    {
+      "sequence": 24,
+      "level": "INFO",
+      "message": "[ARTIFACTS] Created files"
+    },
+    {
+      "sequence": 25,
+      "level": "INFO",
+      "message": "c:/programdata/result_2024-0617.pdf (44858 bytes)"
+    },
+    {
+      "sequence": 26,
+      "level": "INFO",
+      "message": "c:/programdata/jgi47eo.ouit (5566464 bytes)"
+    }
+  ],
+  "IOC": {
+    "domains": [],
+    "ips": []
+  }
+}

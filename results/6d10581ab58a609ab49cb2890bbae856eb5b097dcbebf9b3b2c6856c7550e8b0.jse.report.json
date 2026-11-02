@@ -1,0 +1,70 @@
+{
+  "events": [
+    {
+      "sequence": 1,
+      "level": "INFO",
+      "message": "[PROFILE] Elevated WSH context enabled (synthetic /elevate argument)"
+    },
+    {
+      "sequence": 2,
+      "level": "INFO",
+      "message": "[RUN] Executing script (51614 bytes)"
+    },
+    {
+      "sequence": 3,
+      "level": "INFO",
+      "message": "[ActiveXObject] Scripting.FileSystemObject"
+    },
+    {
+      "sequence": 4,
+      "level": "INFO",
+      "message": "[ActiveXObject] WScript.Shell"
+    },
+    {
+      "sequence": 5,
+      "level": "INFO",
+      "message": "[ActiveXObject] MSXML2.XMLHTTP"
+    },
+    {
+      "sequence": 6,
+      "level": "INFO",
+      "message": "[ActiveXObject] Schedule.Service"
+    },
+    {
+      "sequence": 7,
+      "level": "INFO",
+      "message": "[WARN] missing scheduler method: symbol(symbol.toprimitive)"
+    },
+    {
+      "sequence": 8,
+      "level": "INFO",
+      "message": "[SCHEDULER] Connect to localhost"
+    },
+    {
+      "sequence": 9,
+      "level": "INFO",
+      "message": "[HTTP OPEN] GET https://omittragroup.com/order/Crypted.ps1"
+    },
+    {
+      "sequence": 10,
+      "level": "INFO",
+      "message": "[HTTP SEND] https://omittragroup.com/order/Crypted.ps1 => 200"
+    },
+    {
+      "sequence": 11,
+      "level": "INFO",
+      "message": "[ARTIFACTS] Created files"
+    },
+    {
+      "sequence": 12,
+      "level": "INFO",
+      "message": "none"
+    }
+  ],
+  "IOC": {
+    "domains": [
+      "https://omittragroup.com/order/Crypted.ps1"
+    ],
+    "ips": []
+  }
+}

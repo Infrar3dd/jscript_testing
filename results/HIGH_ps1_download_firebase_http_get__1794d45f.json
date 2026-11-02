@@ -1,0 +1,55 @@
+{
+  "events": [
+    {
+      "sequence": 1,
+      "level": "INFO",
+      "message": "[PROFILE] Elevated WSH context enabled (synthetic /elevate argument)"
+    },
+    {
+      "sequence": 2,
+      "level": "INFO",
+      "message": "[RUN] Executing script (17701 bytes)"
+    },
+    {
+      "sequence": 3,
+      "level": "INFO",
+      "message": "[ActiveXObject] Scripting.FileSystemObject"
+    },
+    {
+      "sequence": 4,
+      "level": "INFO",
+      "message": "[ActiveXObject] WScript.Shell"
+    },
+    {
+      "sequence": 5,
+      "level": "INFO",
+      "message": "[ActiveXObject] MSXML2.XMLHTTP"
+    },
+    {
+      "sequence": 6,
+      "level": "INFO",
+      "message": "[FOLDER EXISTS] C:\\Temp\\ => false"
+    },
+    {
+      "sequence": 7,
+      "level": "INFO",
+      "message": "[FSO] CreateFolder: C:\\Temp\\"
+    },
+    {
+      "sequence": 8,
+      "level": "INFO",
+      "message": "[HTTP OPEN] GET https://firebasestorage.googleapis.com/v0/b/new-era-14dfd-15dls/o/Lincoln.ps1?alt=media&token=6bbc74db-c1eb-486b-9199-833b5f71e763"
+    },
+    {
+      "sequence": 9,
+      "level": "INFO",
+      "message": "[HTTP SEND] https://firebasestorage.googleapis.com/v0/b/new-era-14dfd-15dls/o/Lincoln.ps1?alt=media&token=6bbc74db-c1eb-486b-9199-833b5f71e763 => 200"
+    }
+  ],
+  "IOC": {
+    "domains": [
+      "https://firebasestorage.googleapis.com/v0/b/new-era-14dfd-15dls/o/Lincoln.ps1?alt=media&token=6bbc74db-c1eb-486b-9199-833b5f71e763"
+    ],
+    "ips": []
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "events": [
+    {
+      "sequence": 1,
+      "level": "INFO",
+      "message": "[PROFILE] Elevated WSH context enabled (synthetic /elevate argument)"
+    },
+    {
+      "sequence": 2,
+      "level": "INFO",
+      "message": "[RUN] Executing script (807080 bytes)"
+    }
+  ],
+  "IOC": {
+    "domains": [],
+    "ips": []
+  }
+}

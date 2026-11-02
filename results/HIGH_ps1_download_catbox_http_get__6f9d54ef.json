@@ -1,0 +1,65 @@
+{
+  "events": [
+    {
+      "sequence": 1,
+      "level": "INFO",
+      "message": "[PROFILE] Elevated WSH context enabled (synthetic /elevate argument)"
+    },
+    {
+      "sequence": 2,
+      "level": "INFO",
+      "message": "[RUN] Executing script (42925 bytes)"
+    },
+    {
+      "sequence": 3,
+      "level": "INFO",
+      "message": "[ActiveXObject] Scripting.FileSystemObject"
+    },
+    {
+      "sequence": 4,
+      "level": "INFO",
+      "message": "[ActiveXObject] WScript.Shell"
+    },
+    {
+      "sequence": 5,
+      "level": "INFO",
+      "message": "[ActiveXObject] MSXML2.XMLHTTP"
+    },
+    {
+      "sequence": 6,
+      "level": "INFO",
+      "message": "[FOLDER EXISTS] C:\\Temp\\ => false"
+    },
+    {
+      "sequence": 7,
+      "level": "INFO",
+      "message": "[FSO] CreateFolder: C:\\Temp\\"
+    },
+    {
+      "sequence": 8,
+      "level": "INFO",
+      "message": "[HTTP OPEN] GET https://files.catbox.moe/8k8sjr.ps1"
+    },
+    {
+      "sequence": 9,
+      "level": "INFO",
+      "message": "[HTTP SEND] https://files.catbox.moe/8k8sjr.ps1 => 200"
+    },
+    {
+      "sequence": 10,
+      "level": "INFO",
+      "message": "[ARTIFACTS] Created files"
+    },
+    {
+      "sequence": 11,
+      "level": "INFO",
+      "message": "none"
+    }
+  ],
+  "IOC": {
+    "domains": [
+      "https://files.catbox.moe/8k8sjr.ps1"
+    ],
+    "ips": []
+  }
+}

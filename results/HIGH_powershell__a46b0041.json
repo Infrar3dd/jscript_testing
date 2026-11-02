@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "sequence": 1,
+      "level": "INFO",
+      "message": "[PROFILE] Elevated WSH context enabled (synthetic /elevate argument)"
+    },
+    {
+      "sequence": 2,
+      "level": "INFO",
+      "message": "[RUN] Executing script (1016884 bytes)"
+    },
+    {
+      "sequence": 3,
+      "level": "INFO",
+      "message": "[ActiveXObject] WScript.Shell"
+    },
+    {
+      "sequence": 4,
+      "level": "INFO",
+      "message": "[REG READ] hklm\\software\\microsoft\\windows\\currentversion\\app paths\\powershell.exe\\ => (not found)"
+    }
+  ],
+  "IOC": {
+    "domains": [],
+    "ips": []
+  }
+}
